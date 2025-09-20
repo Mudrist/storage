@@ -1,0 +1,1 @@
+-bash: dated: command not found

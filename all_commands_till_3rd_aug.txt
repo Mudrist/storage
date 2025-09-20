@@ -1,0 +1,866 @@
+    1  ls -lthr
+    2  vim 1.txt
+    3  ls -lthr
+    4  yum install tar
+    5  clear
+    6  ls -lthr
+    7  tar -cvf 1.txt.tar 1.txt  .
+    8  ls -lthr
+    9  tar -cvf 1.txt.tar 1.txt 
+   10  ls -lthr
+   11  cp 1.txt 2.txt
+   12  ls -lthr
+   13  tar -cvf 2.txt.tar 1.txt 2.txt 
+   14  ls -lthr
+   15  rm -rf *.tar*
+   16  ls -lrthr
+   17  tar -cvzf test.tar.gz 1.txt 2.txt 
+   18  ls -lthr
+   19  tar -cvzf test.tar.gz  2.txt 
+   20  ls
+   21  ls -lthr
+   22  tar -xvzf test.tar.gz 
+   23  ls -lthr
+   24  cp test.tar.gz 
+   25  cp test.tar.gz /home/
+   26  cd /home/
+   27  ls -lthr
+   28  tar -xvzf test.tar.gz 
+   29  ls -lthr
+   30  clear
+   31  ls -lthr
+   32  tar -tzvf test.tar.gz 
+   33  ls -lthr
+   34  rm -rf 2.txt 
+   35  tar -tzvf test.tar.gz 
+   36  ls -lthr
+   37  vim a.sh
+   38  sh a.sh 
+   39  ./a.sh
+   40  ls -lthr
+   41  chmod 755 a.sh 
+   42  ./a.sh
+   43  vim a.sh
+   44  sh a.sh 
+   45  bash a.sh 
+   46  vim a.sh
+   47  ls -lthr
+   48  vim b.sh
+   49  chmod 400 b.sh 
+   50  sh b.sh 
+   51  ls -lthr
+   52  sh b.sh 
+   53  chmod b.sh
+   54  chmod 755 b.sh
+   55  ls -lthr
+   56  chmod 777 b.sh 
+   57  ls -lthr
+   58  chmod 755 b.sh 
+   59  clear
+   60  ls -lthr
+   61  vim airth.sh
+   62  chmod 755 airth.sh 
+   63  sh airth.sh 
+   64  vim airth.sh
+   65  ls -lthr
+   66  vim airth.sh 
+   67  sh airth.sh 
+   68  vim airth.sh 
+   69  cd /home/
+   70  ls -lthr
+   71  cd ..
+   72  cd /root/
+   73  ls -lthr
+   74  sh airth.sh 
+   75  cd /home/
+   76  ls -lthr
+   77  cd /root/
+   78  ls -lthr
+   79  cay airth.sh 
+   80  vim airth.sh 
+   81  ls -lthr
+   82  cat > airth.sh 
+   83  ls -lthr
+   84  vim airth.sh 
+   85  cat < airth.sh 
+   86  cat > redirect.sh
+   87  cat  redirect.sh
+   88  cat  >> redirect.sh
+   89  cat redirect.sh 
+   90  cat  > redirect.sh
+   91  cat redirect.sh 
+   92  cat > redirect.sh 
+   93  cat redirect.sh 
+   94  cat << redirect.sh 
+   95  ihiojn
+   96  kkk
+   97  kkjkj
+   98  cat redirect.sh 
+   99  dat << del
+  100  cat << redirect.sh 
+  101  gvgv
+  102  jiv
+  103  jvjv
+  104  clear
+  105  dated 2>errors.txt
+  106  cat errors.txt 
+  107  dated
+  108  vim var.sh
+  109  sh var.sh 
+  110  vim var.sh
+  111  sh var.sh 
+  112  vim var.sh
+  113  sh var.sh 
+  114  vim var.sh
+  115  sh var.sh 
+  116  vim var.sh
+  117  vim read.sh
+  118  sh read
+  119  sh read.sh 
+  120  cat read.sh 
+  121  vim read.sh
+  122  sh read.sh 
+  123  cat read.sh 
+  124  vim read.sh
+  125  vim operations.sh
+  126  sh read.sh 
+  127  sh operations.sh 
+  128  vim operations.sh 
+  129  sh operations.sh 
+  130  vim operations.sh 
+  131  vim if.sh 
+  132  sh if.sh 
+  133  cat if.sh 
+  134  sh if.sh 
+  135  vim if.sh 
+  136  sh if.sh 
+  137  vim if.sh 
+  138  sh if.sh 
+  139  vim if.sh 
+  140  sh if.sh 
+  141  cat if.sh 
+  142  sh if.sh 
+  143  vim ifelse.sh
+  144  sh ifelse.sh 
+  145  cat ifelse.sh 
+  146  sh ifelse.sh 
+  147  vim yv.sh
+  148  sh yv.sh 
+  149  vim yv.sh
+  150  vim odd.sh
+  151  sh odd.sh 
+  152  vim odd.sh
+  153  sh odd.sh 
+  154  vim odd.sh
+  155  sh odd.sh 
+  156  vim odd.sh
+  157  vim odd.sh +7
+  158  sh odd.sh 
+  159  vim odd.sh
+  160  vim cal.sh
+  161  sh cal.sh 
+  162  vim cal.sh +15
+  163  sh cal.sh 
+  164  cat cal.sh 
+  165  vim fib.sh
+  166  ls -lthr
+  167  cat odd.sh 
+  168  vim fib.sh
+  169  sh fib.sh 
+  170  sh fib.sh +5
+  171  vim fib.sh 
+  172  cat fib.sh 
+  173  cat odd.sh 
+  174  sh fib.sh 
+  175  vim for.sh
+  176  sh for.sh 
+  177  vim for.sh
+  178  sh for.sh 
+  179  vim for.sh
+  180  sh for.sh 
+  181  vim while.sh
+  182  sh while.sh 
+  183  vim while.sh +4
+  184  sh while.sh 
+  185  vim while.sh +4
+  186  sh while.sh 
+  187  vim while.sh +4
+  188  sh while.sh 
+  189  cat while.sh 
+  190  vim until.sh
+  191  cp while.sh until.sh
+  192  vim until.sh 
+  193  sh until.sh 
+  194  vim until.sh 
+  195  sh until.sh 
+  196  cat until.sh 
+  197  vim fibonacci.sh
+  198  sh fibonacci.sh 
+  199  sh fibonacci.sh +4
+  200  vim fibonacci.sh +4
+  201  sh fibonacci.sh 
+  202  cat fibonacci.sh 
+  203  history 
+  204  ls -lthr
+  205  cat fibonacci.sh 
+  206  ls
+  207  ls -lthr
+  208  cat a.sh 
+  209  cat operations.sh 
+  210  vim num.sh
+  211  sh num.sh 
+  212  vim num.sh
+  213  sh num.sh 
+  214  vim num.sh
+  215  sh num.sh 
+  216  vim num.sh
+  217  vim array.sh
+  218  sh array.sh 
+  219  vim array.sh
+  220  vim associate.sh
+  221  sh associate.sh 
+  222  vim associate.sh
+  223  clear
+  224  vim associate.sh
+  225  sh associate.sh 
+  226  vim associate.sh
+  227  sh associate.sh 
+  228  vim associate.sh
+  229  sh associate.sh 
+  230  vim associate.sh
+  231  sh associate.sh 
+  232  vim associate.sh
+  233  sh associate.sh 
+  234  vim associate.sh
+  235  vim census.sh
+  236  sh census.sh 
+  237  vim census.sh +14
+  238  sh census.sh 
+  239  vim census.sh +14
+  240  sh census.sh 
+  241  vim census.sh +14
+  242  vim function.sh
+  243  sh function.sh 
+  244  vim function.sh
+  245  sh function.sh 
+  246  vim function.sh
+  247  vim sum_function.sh
+  248  sh sum_function.sh 
+  249  vim sum_function.sh
+  250  sh sum_function.sh 
+  251  vim sum_function.sh
+  252  sh sum_function.sh 
+  253  vim sum_function.sh
+  254  systemctl status httpd
+  255  systemctl status http
+  256  netstat -tnlp
+  257  yum install httpd
+  258  systemctl start httpd.service 
+  259  systemctl status http
+  260  systemctl status httpd.service 
+  261  clear
+  262  vim healthcheck.sh
+  263  sh healthcheck.sh 
+  264  systemctl stop httpd.service 
+  265  sh healthcheck.sh 
+  266  systemctl status httpd.service 
+  267  systemctl stop httpd.service 
+  268  systemctl status httpd.service 
+  269  netstat -tnlp
+  270  sh healthcheck.sh 
+  271  systemctl status httpd.service 
+  272  ls -lthr
+  273  cat healthcheck.sh 
+  274  :q!
+  275  sh healthcheck.sh 
+  276  ls -lthr
+  277  vim sum_function.sh 
+  278  clear
+  279  vim sum_function.sh 
+  280  ls -lthr
+  281  vim healthcheck.sh 
+  282  yum install nginx
+  283  yum install java
+  284  clear
+  285  systemctl start nginx.service 
+  286  systemctl start java
+  287  yum install jenkins
+  288  yum install jenkins*
+  289  netstat -tnlp
+  290  yum install cup
+  291  yum install cups
+  292  systemctl start cups
+  293  netstat -tnlp
+  294  yum install ntp
+  295  yum install ntpd
+  296  yum install ntp*
+  297  yum install vsftpd
+  298  yum install snmpd
+  299  yum install snmpd*
+  300  yum install dbus
+  301  systemctl start dbus
+  302  netstat -tnlp
+  303  systemctl start vsftpd
+  304  netstat -tnlp
+  305  vim healthcheck.sh 
+  306  netstat -tnlp
+  307  vim healthcheck.sh 
+  308  sh healthcheck.sh 
+  309  vim healthcheck.sh +35
+  310  sh healthcheck.sh 
+  311  vim healthcheck.sh 
+  312  sh healthcheck.sh 
+  313  ls -lthr
+  314  cat 1
+  315  :q!
+  316  clea
+  317  clear
+  318  ls
+  319  ls -lthr
+  320  cat healthcheck.sh
+  321  chmod 755 healthcheck.sh 
+  322  ls -lthr
+  323  netstat -tnlp
+  324  systemctl stop cupsd
+  325  systemctl stop cups.service 
+  326  systemctl stop vsftpd.service 
+  327  netstat -tnlp
+  328  systemctl stop httpd.service 
+  329  ls
+  330  vim healthcheck.sh 
+  331  sh healthcheck.sh 
+  332  ls -lthr
+  333  cd /var/lo
+  334  cd /var/log/
+  335  ls
+  336  ls -lthr
+  337  ls
+  338  cd /home/
+  339  ls
+  340  cd /root/
+  341  ls -lthr
+  342  vim healthcheck.sh 
+  343  sh healthcheck.sh 
+  344  ls -lthr
+  345  cat /var/log/
+  346  cd /var/log/
+  347  ls -lthr
+  348  vim service-monitor.log 
+  349  history 
+  350  systemctl stop vsftpd.service httpd.service cups.service 
+  351  netstat -tnlp
+  352  crontab -e
+  353  yum install cron*
+  354  systemctl start crond.service 
+  355  netstat -tnlp
+  356  crontab -e
+  357  cd /root/
+  358  pwd
+  359  ls -lthr
+  360  crontab 
+  361  crontab -e
+  362  date
+  363  netstat -tnlp
+  364  last
+  365  clear
+  366  date
+  367  vim healthcheck.sh 
+  368  date
+  369  crontab -e
+  370  vim healthcheck.sh 
+  371  date
+  372  netstat -tnlp
+  373  cd /var/log/
+  374  ls
+  375  ls -lthr
+  376  cat service-monitor.log 
+  377  crontab -e
+  378  df -h
+  379  clear
+  380  df -h
+  381  ls
+  382  ls -lthr
+  383  read -r
+  384  ls -lthr
+  385  grep "Running" service-monitor.log 
+  386  grep 'Running' service-monitor.log 
+  387  vim service-monitor.log 
+  388  grep 'running' service-monitor.log 
+  389  grep 'running' /
+  390  grep 'running' *
+  391  grep 'running' /*
+  392  grep 'running' *
+  393  ls -lthr
+  394  grep -ir 'running' *
+  395  grep  'running' *
+  396  clear
+  397  grep  'running' *
+  398  grep  -ir 'running' *
+  399  ls -lthr
+  400  grep -oE '[0-9]{1-3}\.){3}[0-9]{1-3}\b' *
+  401  grep -oE '[0-9]{1-3}\.){3}[0-9]{1-3}\b' .
+  402  grep -oE '[0-9]{1-3}\.){3}[0-9]{1-3}\b' service-monitor.log 
+  403  grep -oEir '[0-9]{1-3}\.){3}[0-9]{1-3}\b' 
+  404  grep -oEir '[0-9]{1-3}\.){3}[0-9]{1-3}\b'  *
+  405  grep -oEir '\b([0-9]{1-3}\.){3}[0-9]{1-3}\b'  .
+  406  ls -lthr
+  407  vim text.123
+  408  grep -oEir '\b([0-9]{1-3}\.){3}[0-9]{1-3}\b'  .
+  409  ls -lthr
+  410  ls sort
+  411  sort | ls
+  412  ls | sort
+  413  ls
+  414  ls -lthr
+  415  ls -lthr | sort
+  416  ls  | sort
+  417  ls  | sort -r
+  418  ls  | sort -n
+  419  ls -lthr
+  420  touch 123
+  421  ls  | sort 
+  422  touch 245
+  423  ls  | sort 
+  424  ls  | sort -n
+  425  ls  | sort -nls -lthr
+  426  ls -lthr
+  427  vim text.123 
+  428  sort -u text.123 
+  429  uniq text.123 
+  430  clear
+  431  man grep
+  432  ls -lthr
+  433  cd /var/log/
+  434  ls -lthr
+  435  grep "ERROR" /var/log/lastlog 
+  436  grep "ERROR" .
+  437  grep -irv "ERROR"  
+  438  grep "ERROR" dnf.log 
+  439  grep "ERROR" cloud-init.log 
+  440  grep -ir "ERROR" cloud-init.log 
+  441  clear
+  442  grep -rl "log" /
+  443  clear
+  444  ls -lthr
+  445  grep -rl "log" /etc/
+  446  cat /etc/cups/cups-files.conf | grep -ir "error"
+  447  clear
+  448  vim /etc/cups/cups-files.conf
+  449  history 
+  450  cd /home/
+  451  ls
+  452  ls -lthr
+  453  grep -rl "log" /home/
+  454  mkdir vikas
+  455  ls -lthr
+  456  cd vikas/
+  457  ls -lthr
+  458  touch abc
+  459  vim abc 
+  460  grep -rl "log" /home/vikas/
+  461  cd ..
+  462  ls -lthr
+  463  cd ..
+  464  ls -lthr
+  465  grep -c "log" /
+  466  cd /var/log/
+  467  ls-l thr
+  468  ls -lthr
+  469  grep -c "log" /var/log/hawkey.log-20250719 
+  470  vim hawkey.log-20250719
+  471  history 
+  472  ps aux
+  473  ps aux | grep httpd
+  474  ps aux
+  475  ps aux | grep vsftpd
+  476  top
+  477  ps aux
+  478  ps aux | grep httpd
+  479  top | grep httpd
+  480  top
+  481  clear
+  482  ps aux | grep 123
+  483  ls -lthr
+  484  grep -nir "running" service-monitor.log 
+  485  grep -nr "running" service-monitor.log 
+  486  grep -nr "Running" service-monitor.log 
+  487  grep -nir "Running" service-monitor.log 
+  488  grep -v "running" service-monitor.log 
+  489  grep -vin "running" service-monitor.log 
+  490  man grep 
+  491  clear
+  492  ls -lthr
+  493  cd /
+  494  cd /root/
+  495  ls
+  496  ls -lthr
+  497  vim 123.txt
+  498  grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' 123.txt 
+  499  ls -lthr
+  500  cd /var/log/
+  501  ls -lthr
+  502  grep -Eir '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' lastlog 
+  503  grep -Eir '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log 
+  504  grep -Er '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log 
+  505  grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log 
+  506  grep -Eu '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log 
+  507  grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log 
+  508  history 
+  509  clear
+  510  grep -E "ERROR|log|name" service-monitor.log"
+  511  grep -E "ERROR|log|name" service-monitor.log
+  512  grep -E "ERROR|log|name" cloud-init.log 
+  513  grep -E "Success|log|name" service-monitor.log
+  514  grep -E "success|log|name" service-monitor.log
+  515  grep -E "log|name" service-monitor.log
+  516  grep -E "ERROR|log|name" cloud-init.log 
+  517  ls -lthr
+  518  cd /root/
+  519  ls -lthr
+  520  vim 123.txt 
+  521  cd -
+  522  clear
+  523  grep -Eu '\b([0-9]{1,2}\.){3}[0-9]{1,2}\b' cloud-init.log 
+  524  grep -E '\b([0-9]{1,2}\.){3}[0-9]{1,2}\b' cloud-init.log 
+  525  grep -E '\b([0-9]{1,2}\.){3}[0-9]{1,2}\b' cloud-init.log ls -lthr
+  526  vim cloud-init.log 
+  527  clear
+  528  cd /root/
+  529  ls -lthr
+  530  vim 123.txt 
+  531  grep -E '\b([0-9]{1,2}\.){3}[0-9]{1,2}\b' 123.txt 
+  532  grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' 123.txt 
+  533  clear
+  534  grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' 123.txt 
+  535  cd /var/log/
+  536  ls -lthr
+  537  grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log 
+  538  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log 
+  539  grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log 
+  540  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log > ip.txt
+  541  vim ip.txt 
+  542  ls -lthr
+  543  yum install rsyslog
+  544  yum install syslog
+  545  systemctl start rsyslog.service 
+  546  ls -lthr
+  547  cd /etc/rsyslog.d/
+  548  ls -lthr
+  549  vim 21-cloudinit.conf 
+  550  curl ident.me
+  551  ls -lthr
+  552  cd ..
+  553  cd /var/lo
+  554  cd /var/log/
+  555  ls -lthr
+  556  vim messages 
+  557  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' messages | sort | uniq -c
+  558  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' messages | sort | uniq -c | wc -l
+  559  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log 
+  560  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log | uniq
+  561  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log | uniq -c
+  562  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log | uniq | wort
+  563  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log | uniq | sort
+  564  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' cloud-init.log | uniq -c | sort
+  565  clear
+  566  ls -lthr
+  567  history 
+  568  ls -lthr
+  569  cat 123.txt 
+  570  sort 123.txt 
+  571  sort -r 123.txt 
+  572  sort -n 123.txt 
+  573  sort -k 2 123.txt 
+  574  sort -k2 123.txt 
+  575  sort -k3 123.txt 
+  576  sort -k5 123.txt 
+  577  sort -k 5 123.txt 
+  578  sort -k2 -n 123.txt 
+  579  sort -k3 -n 123.txt 
+  580  sort -k6 -n 123.txt 
+  581  sort -f 123.txt 
+  582  sort -f 12 123.txt 
+  583  sort -f "12" 123.txt 
+  584  sort -n -t. -k1,1 -k2,2 -k3,3 -k4,4 123.txt 
+  585  sort -r  -n -t. -k1,1 -k2,2 -k3,3 -k4,4 123.txt 
+  586  sort -r  -n -t. -k1,1 -k2,2 -k3,3 123.txt 
+  587  sort -r  -n -t. -k1,1 -k2,2  123.txt 
+  588  sort -r   -t. -k1,1 -k2,2  123.txt 
+  589  sort -n   -t. -k1,1 -k2,2  123.txt 
+  590  ls -lthr
+  591  cd /var/log/
+  592  ls -lthr
+  593  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' messages 
+  594  grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' messages  > /root/1.txt 
+  595  cd /root/
+  596  ls -lthr
+  597  vim 1.txt 
+  598  uniq 1.txt 
+  599  uniq -d 1.txt 
+  600  uniq -u 1.txt 
+  601  uniq -c 1.txt 
+  602  history 
+  603  clear
+  604  uniq -c 1.txt 
+  605  history 
+  606  ls -lthr
+  607  awk '{print $1}' 123.txt 
+  608  awk '{print $1}' healthcheck.sh 
+  609  cat healthcheck.sh 
+  610  awk '{print $1}' healthcheck.sh 
+  611  clear
+  612  ls -lthr > awk.txt
+  613  cat awk.txt 
+  614  awk '{print $1}' awk.txt 
+  615  awk '{print $2}' awk.txt 
+  616  awk '{print $4}' awk.txt 
+  617  awk '{print $1,$2,$3}' awk.txt 
+  618  awk '{print $1-$3}' awk.txt 
+  619  awk '{print $1,$3}' awk.txt 
+  620  awk '{print NR}' awk.txt 
+  621  awk END '{print NR}' awk.txt 
+  622  awk 'END {print NR}' awk.txt 
+  623  awk '{print $NF}' awk.txt 
+  624  cat awk.txt 
+  625  awk '{print $NF}' awk.txt 
+  626  clear
+  627  ls -lthr
+  628  cat awk.txt 
+  629  cp awk.txt sed.txt
+  630  cat sed.txt 
+  631  ls -lthr
+  632  cat sed.txt 
+  633  sed 's/root/vikas' awk.txt 
+  634  sed 's/root/vikas/' awk.txt 
+  635  ls -lthr
+  636  sed 's/root/vikas/' awk.txt 
+  637  sed 's/foo/root/vikas/' awk.txt 
+  638  sed 's/foo/root/vikas/g' awk.txt 
+  639  clear
+  640  ls -lthr
+  641  cat sed.txt 
+  642  sed '5d' sed.txt 
+  643  sed -n '3p' sed.txt 
+  644  sed -n '2i\hi' sed.txt 
+  645  sed  '2i\hi' sed.txt 
+  646  ls -lthr
+  647  cat sed.txt 
+  648  sed -i 's/root/vikas/g' sed.txt 
+  649  cat sed.txt 
+  650  sed -e 's/root/vikas/g' -e 's/Jul/Aug/g' sed.txt 
+  651  sed -e 's/vikas/root/g' -e 's/Aug/Sept/g' sed.txt 
+  652  clear
+  653  history 
+  654  ls -lthr
+  655  cat sed.txt 
+  656  sed -e 's/vikas/test/g' -e 's/Jul/Sept/g' sed.txt 
+  657  history 
+  658  echo "vikas" | tr 'a-z' 'A-Z'
+  659  echo "VIKAS" | tr 'A-Z' 'a-z'
+  660  echo "VIKAS" | tr -d 'a-c'
+  661  echo "VIKAS" | tr -d 'A-C'
+  662  echo "VIKAS" | tr -d 'A-M'
+  663  echo "1 2 3 4 5 6 7 8 9 10"  | tr ' ' '\n'
+  664  echo "vikas123india76879" | tr -d "0-9"
+  665  echo "vikas123india76879@#$" | tr -d "0-9"
+  666  echo "vikas123india76879@#$" | tr -cd "a-zA-Z\n"
+  667  clear
+  668  ls
+  669  ls -lthr
+  670  wc -l sed.txt 
+  671  wc -w sed.txt 
+  672  wc -m sed.txt 
+  673  wc -c sed.txt 
+  674  wc  sed.txt 
+  675  ls -lthr
+  676  ls -lthr | wc -l
+  677  clear
+  678  find . -name "a.txt"
+  679  find . -name "sed.txt"
+  680  find . -iname "sed.txt"
+  681  cd /
+  682  ls
+  683  find / -iname "sed.txt"
+  684  find / -iname "a.txt"
+  685  find / -iname "1.txt"
+  686  find / -iname "sed.txt"
+  687  find / -iname "awk.txt"
+  688  find / -type d  -iname "awk"
+  689  find / -type f  -size +10M
+  690  ls -lthr /var/cache/dnf/amazonlinux-filenames.solvx
+  691  find / -type f  -size +100M
+  692  ls -lthr /usr/lib/locale/locale-archive
+  693  clear
+  694  find / -type f -mtime -1
+  695  ls -lthr /var/lib/update-motd/motd
+  696  find / -type f -mtime -100 -size +100M
+  697  ls -lthr /usr/lib/locale/locale-archive
+  698  find / -type f -mtime -330 -size +100M
+  699  ls -lthr /usr/lib/jvm/java-24-amazon-corretto.x86_64/lib/modules
+  700  find / -type f -mtime -330 
+  701  find / -type f -perm 0777
+  702  find / -type d -perm 0777
+  703  find / -type d -perm 0600
+  704  ls -lthr 
+  705  find / -type d -perm 0600
+  706  ls -lthr /run/systemd/propagate/httpd.service
+  707  ls -lthr /run/systemd/propagate
+  708  find / type -f -name "*log*" 
+  709  find / type f -name "*log*" 
+  710  find / type f -name "log*" 
+  711  find / type f -name "*log" 
+  712  ls -lthr
+  713  find / -type f -name "123.txt"  -delet
+  714  find / -type f -name "123.txt"  -delete
+  715  cd /root/
+  716  ls
+  717  ls -lthr
+  718  find / -type f -name "test.tar.tz"  -delete
+  719  ls
+  720  ls -lthr
+  721  find /root/ -type f -name "test.tar.tz"  -delete
+  722  ls
+  723  ls -lthr
+  724  find /root/ -type f -name "test.tar.gz"  -delete
+  725  ls -lthr
+  726  find / -type f -user vikas
+  727  find / -type f -user ec2-user
+  728  history 
+  729  clear
+  730  ls -lthr
+  731  cat sed.txt 
+  732  cut -d "." -f1 sed.txt 
+  733  cut -d "-" -f4 sed.txt 
+  734  cut -d "-" -f3 sed.txt 
+  735  cat sed.txt 
+  736  echo "abcdef" | cut -2-4
+  737  echo "abcdef" | cut -c  2-4
+  738  awscli --version
+  739  yum install awscli*
+  740  yum install aws*
+  741  clear
+  742  awscli --version
+  743  awscli version
+  744  aws configure
+  745  aws ls s3
+  746  aws ls s3clear
+  747  clear
+  748  aws ec2 describe-instances
+  749  !
+  750  clear
+  751  aws ec2 stop-instances     --instance-ids i-06e531ceb85658ccc
+  752  history 
+  753  aws ec2 describe-instances
+  754  aws s3 ls
+  755  aws ec2 describe-instances
+  756  aws ec2 modify-instance-attribute --instance-id i-06e531ceb85658ccc --disable-api-termination "{\"Value\":true}"
+  757  cd /home/
+  758  ls -lthr
+  759  mkdir k2
+  760  mkdir guvi
+  761  cd guvi/
+  762  vim test.123
+  763  yum install httpd
+  764  systemctl start httpd
+  765  netstat -tnlp
+  766  cd /etc/httpd/conf/
+  767  ls
+  768  cd ..
+  769  cd /etc/httpd/conf.d/
+  770  ls -lthr
+  771  cd ..
+  772  cd conf
+  773  cd /var/www/html/
+  774  ls
+  775  ls -lthr
+  776  vim index.html
+  777  systemctl start httpd.socket 
+  778  systemctl start httpd
+  779  systemctl status httpd
+  780  systemctl status httpd.service
+  781  systemctl restart httpd.service
+  782  clear
+  783  netstat -tnlp
+  784  systemctl status httpd.service
+  785  curl ident.me
+  786  df -h
+  787  lsblk
+  788  df -Th
+  789  mkfs.xfs /dev/xvdb 
+  790  mkdir storage
+  791  ls -lthr
+  792  mount /dev/xvdb storage
+  793  df -h
+  794  lsblk
+  795  mount /dev/xvdb /storage
+  796  mount -a
+  797  df -h
+  798  reboot 
+  799  blkid
+  800  vim /etc/fstab 
+  801  mount -a
+  802  vim /etc/fstab 
+  803  mount -a
+  804  df -h
+  805  reboot 
+  806  df -h
+  807  vim /etc/fstab 
+  808  history 
+  809  lsblk
+  810  df -Th
+  811  vim /etc/fstab 
+  812  reboot 
+  813  vim /etc/fstab 
+  814  df -Th
+  815  cle
+  816  clear
+  817  df -h
+  818  lsblk
+  819  df -Th
+  820  mkfs.xfs /dev/xvdb 
+  821  clear
+  822  mkdir test
+  823  mount /dev/xvdb test/
+  824  df -h
+  825  blkid
+  826  vim /etc/fstab 
+  827  mount -a
+  828  vim /etc/fstab 
+  829  mount -a
+  830  vim /etc/fstab 
+  831  mount -a
+  832  df -h
+  833  lsblk
+  834  df -h
+  835  resize2fs /dev/xvdb 
+  836  df -h
+  837  growpart /dev/xvdb 
+  838  lsblk  
+  839  df -h
+  840  growpart /dev/xvdb 1
+  841  xfs_growfs /dev/xvdb 
+  842  df -h
+  843  reboot 
+  844  df -h
+  845  vim /etc/fstab 
+  846  reboot 
+  847  vim /etc/fstab 
+  848  blkid
+  849  vim /etc/fstab 
+  850  mount -a
+  851  df -h
+  852  cd /home/
+  853  history 
+  854  vim /etc/fstab 
+  855  reboot 
+  856  vim /etc/fstab 
+  857  mount -a
+  858  df -h
+  859  netstat -tnlp
+  860  cd /var/www/html/
+  861  ls -lthr
+  862  vim index.html 
+  863  free -m
+  864  top
+  865  history 
+  866  history > all_commands_till_3rd_aug.txt
